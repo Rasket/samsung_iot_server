@@ -1,0 +1,5 @@
+data/MFRC522.cpp.i
+data/mbed-os.lib.i
+data/MFRC522.h.i
+data/main.cpp.i
+data/mbed.bld.i
