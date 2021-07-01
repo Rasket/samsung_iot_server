@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not standart title</title>
+    <link rel="stylesheet" href="/static/css/bootstrap-grid.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet"> 
+</head>
+<body background="/static/img/back.jpg">
+    <br>
+    <header class="header" >
+        <div class="container">
+            <div class="row align-items-center py-3">
+                <div class="col-2">
+                    <a href="" class="logo-link">
+                        <img src="/img/logo.svg" alt="logo: find">
+                    </a>
+                </div>
+                <!-- /.col -->
+                <div class="col d-flex justify-content-center">
+                    <nav class="nav">
+                        <ul class="menu d-flex">
+                            <li class="menu-item"><a href="#" class="menu-link">Главная</a></li>
+                            <li class="menu-item"><a href="#" class="menu-link">О разработке</a></li>
+                            <li class="menu-item"><a href="#" class="menu-link">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- /.col --> 
+                <div class="col-3 d-flex align-items-center justify-content-end">
+                    <a href="{{ url_for('enter_login') }}" class="button button-link">Войти</a>
+                    <a href="#" class="button button-primary">Регистрация</a>
+                </div>
+                <!-- /.col -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </header>
+    <div class="row pt-5 outboard">
+            <h1 class="">Уже сегодня</h1>
+           <p>Хотите улучшить свои результаты в фитнесе и получать своевременные рекомендации от професионалов?</p> 
+
+
+        <div>
+            <a href="#" class="button button-primary">
+                Начать
+            </a>
+        </div>
+    </div>
+    <!-- /.main -->
+</body>
+</html>
